@@ -395,7 +395,12 @@ const localDbSvc = {
               name: 'Welcome file',
               text: welcomeFile,
             }, true);
-            // Set it as the current file
+            // Adding a new file to the site
+            const newFile2 = await workspaceSvc.createFile({
+              name: 'Came For Bog',
+              text: bogFile,
+            }, true);
+            // Set welcome as the current file
             store.commit('file/setCurrentId', newFile.id);
           }
         } else {
