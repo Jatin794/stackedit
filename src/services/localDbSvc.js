@@ -1,6 +1,7 @@
 import utils from './utils';
 import store from '../store';
 import welcomeFile from '../data/welcomeFile.md';
+import bogFile from '../data/bogFile.md';
 import workspaceSvc from './workspaceSvc';
 import constants from '../data/constants';
 
