@@ -14,7 +14,7 @@ categories: ["documentation"]
 lightgallery: true
 ---
 
-In case I've asked/allowed you to write something for (The Bog)[https://bog.jatinnagpal.com/], this file should serve a reference for the syntax. Basically what I require for my stuff and what you can use for yours.
+In case I've asked/allowed you to write something for [The Bog](https://bog.jatinnagpal.com/), this file should serve a reference for the syntax. Basically what I require for my stuff and what you can use for yours.
 
 The above descriptors are called a frontmatter (YAML format). Don't mess with the sections of 'weight' and 'categories' because I can't delegate those parts and 'draft' because it's for public stuff.
 
