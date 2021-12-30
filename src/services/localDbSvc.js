@@ -395,11 +395,11 @@ const localDbSvc = {
               name: 'Welcome file',
               text: welcomeFile,
             }, true);
-            // Adding a new file to the site
-            const newFile2 = await workspaceSvc.createFile({
-              name: 'Came For Bog',
-              text: bogFile,
-            }, true);
+            // Adding a new file to the site. For now I decided I don't want bogFile to show up
+            //const newFile2 = await workspaceSvc.createFile({
+            //  name: 'Came For Bog',
+            //  text: bogFile,
+            //}, true);
             // Set welcome as the current file
             store.commit('file/setCurrentId', newFile.id);
           }
